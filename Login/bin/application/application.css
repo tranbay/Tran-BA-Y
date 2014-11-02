@@ -1,0 +1,19 @@
+.root{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Times New Roman";
+}
+.button{
+	-fx-background-radius: 12px;
+    -fx-padding: 5;
+    -fx-border-radius: 15px;
+	
+	
+}
+.button:active {
+	-fx-border-color: #1b435e;
+	-fx-background-color: #1b435e;
+}
+.button:hover{
+	-fx-border-color: #81b9de;
+	-fx-background-color:  #81b9de;
+}

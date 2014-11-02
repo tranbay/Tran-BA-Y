@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="413.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlMessage">
+   <children>
+      <TextArea layoutX="12.0" layoutY="25.0" prefHeight="263.0" prefWidth="445.0" />
+      <TextField layoutX="11.0" layoutY="318.0" prefHeight="94.0" prefWidth="445.0" />
+      <Text layoutX="222.0" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message" />
+      <ComboBox layoutX="378.0" layoutY="1.0" prefHeight="25.0" prefWidth="79.0" promptText="+" />
+      <Button fx:id="messageSent" layoutX="393.0" layoutY="288.0" mnemonicParsing="false" onAction="#onClickMessageSent" prefHeight="25.0" prefWidth="52.0" text="Send" />
+      <Button fx:id="messageCancel" layoutX="314.0" layoutY="288.0" mnemonicParsing="false" onAction="#onClickMessageCancel" text="Cancel" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="412.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlListView">
+   <children>
+      <TextArea layoutX="129.0" layoutY="26.0" prefHeight="241.0" prefWidth="378.0" />
+      <ComboBox layoutX="455.0" prefHeight="25.0" prefWidth="52.0" promptText="+" />
+      <TextField layoutX="129.0" layoutY="302.0" prefHeight="105.0" prefWidth="378.0" promptText="New Messanger" />
+      <ListView layoutX="5.0" layoutY="26.0" prefHeight="382.0" prefWidth="118.0" />
+      <Text layoutX="286.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Chat" />
+      <Button fx:id="roomSent" layoutX="423.0" layoutY="267.0" mnemonicParsing="false" onAction="#onClickRoomSent" prefHeight="25.0" prefWidth="52.0" text="Send" />
+      <Button fx:id="roomCancel" layoutX="319.0" layoutY="267.0" mnemonicParsing="false" onAction="#onClickRoomCancel" text="Cancel" />
+      <Text layoutX="40.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Name" />
+   </children>
+</AnchorPane>
